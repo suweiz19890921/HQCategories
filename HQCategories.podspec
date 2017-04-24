@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HQCategories"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "oc的一些常用扩展"
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "Aspects"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -133,6 +133,5 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "Aspects"
-
+  s.dependency "Aspects" ,"~> 1.4.1"
 end
