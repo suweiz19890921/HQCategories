@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D8B36C093ABB80F650978C81 /* libPods-HQCategoriesDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDE75C090F3B9145316A177 /* libPods-HQCategoriesDemo.a */; };
+		EA76C67F1EC16480009C301E /* UIView+HQLifeCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = EA76C67E1EC16480009C301E /* UIView+HQLifeCycle.m */; };
+		EA76C6821EC164D7009C301E /* HQView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA76C6811EC164D7009C301E /* HQView.m */; };
 		EAEDFDA41EA6119B00031530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDA31EA6119B00031530 /* main.m */; };
 		EAEDFDA71EA6119B00031530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDA61EA6119B00031530 /* AppDelegate.m */; };
 		EAEDFDAA1EA6119B00031530 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFDA91EA6119B00031530 /* ViewController.m */; };
@@ -22,6 +24,10 @@
 		2DDE75C090F3B9145316A177 /* libPods-HQCategoriesDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQCategoriesDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889FD7DCC2310759836CA43C /* Pods-HQCategoriesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQCategoriesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQCategoriesDemo/Pods-HQCategoriesDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D0B4AEA71E8E5013C4D76A99 /* Pods-HQCategoriesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQCategoriesDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQCategoriesDemo/Pods-HQCategoriesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA76C67D1EC16480009C301E /* UIView+HQLifeCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HQLifeCycle.h"; sourceTree = "<group>"; };
+		EA76C67E1EC16480009C301E /* UIView+HQLifeCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HQLifeCycle.m"; sourceTree = "<group>"; };
+		EA76C6801EC164D7009C301E /* HQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQView.h; sourceTree = "<group>"; };
+		EA76C6811EC164D7009C301E /* HQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQView.m; sourceTree = "<group>"; };
 		EAEDFD9F1EA6119B00031530 /* HQCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEDFDA31EA6119B00031530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAEDFDA51EA6119B00031530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +99,8 @@
 				EAEDFDA61EA6119B00031530 /* AppDelegate.m */,
 				EAEDFDA81EA6119B00031530 /* ViewController.h */,
 				EAEDFDA91EA6119B00031530 /* ViewController.m */,
+				EA76C6801EC164D7009C301E /* HQView.h */,
+				EA76C6811EC164D7009C301E /* HQView.m */,
 				EAEDFDAB1EA6119B00031530 /* Main.storyboard */,
 				EAEDFDAE1EA6119B00031530 /* Assets.xcassets */,
 				EAEDFDB01EA6119B00031530 /* LaunchScreen.storyboard */,
@@ -117,6 +125,8 @@
 				EAEDFDBB1EA6137400031530 /* UIViewController+HQLifeCycle.m */,
 				EAEDFDC61EA61AE100031530 /* UIViewController+HQLoading.h */,
 				EAEDFDC71EA61AE100031530 /* UIViewController+HQLoading.m */,
+				EA76C67D1EC16480009C301E /* UIView+HQLifeCycle.h */,
+				EA76C67E1EC16480009C301E /* UIView+HQLifeCycle.m */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -247,6 +257,8 @@
 			files = (
 				EAEDFDAA1EA6119B00031530 /* ViewController.m in Sources */,
 				EAEDFDA71EA6119B00031530 /* AppDelegate.m in Sources */,
+				EA76C6821EC164D7009C301E /* HQView.m in Sources */,
+				EA76C67F1EC16480009C301E /* UIView+HQLifeCycle.m in Sources */,
 				EAEDFDC81EA61AE100031530 /* UIViewController+HQLoading.m in Sources */,
 				EAEDFDBC1EA6137400031530 /* UIViewController+HQLifeCycle.m in Sources */,
 				EAEDFDA41EA6119B00031530 /* main.m in Sources */,
