@@ -13,6 +13,6 @@
 /** 子视图加载 */
 - (void)hq_loadSubview;
 
-/** 重新加载数据 */
-- (void)hq_reloadData;
+/** 加载数据 */
+- (void)hq_loadData;
 @end

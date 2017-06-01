@@ -13,11 +13,13 @@
 {
     [self aspect_hookSelector:@selector(viewDidLoad) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo){
         [aspectInfo.instance hq_loadSubview];
-        [aspectInfo.instance hq_reloadData];
+        [aspectInfo.instance hq_loadData];
     } error:NULL];
 }
 
 - (void)hq_loadSubview {}
 
-- (void)hq_reloadData {}
+
+
+- (void)hq_loadData {}
 @end
